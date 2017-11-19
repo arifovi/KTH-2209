@@ -1,0 +1,17 @@
+The source code is provided in an Netbeans project structure.
+To run it, import it to Netbeans
+
+
+Run the project As JADE.
+
+Start one CuratorAgent, one TourGuideAgent and one ProfilerAgent without 
+any arguments. 
+
+Task #1: 
+Click a guide name in the GUIs list of guides to get a virtual tour from the guide.
+A new window should open with the artifacts of the virtual tour.
+
+Task #2: 
+Start a new TourGuideAgent while the ProfilerAgent is running. 
+The ProfilerAgent will get informed by the DF subscription and the new TourGuideAgent 
+should be added to its list of available guides.
